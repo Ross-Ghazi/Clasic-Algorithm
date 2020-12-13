@@ -8,7 +8,7 @@
 a=[["a","b","c"],["d","e","f"],["g","h","i"]]
 
 #method 1
-res=[""]
+res=[""] # if you put [] then j loop will not start
 for i in range(len(a)):
     resTemp=[]
     for j in range(len(res)):
@@ -19,7 +19,8 @@ for i in range(len(a)):
 print(res)
 
 #method 2 using nested comprehension
-res=[""]
+res=[""] # if you put []  the loop will not work
+        #(len(res))=1 which is ewual with length of ["A"]
 for i in range(len(a)):
     res=[item+char for item in res for char in a[i]]
 print(res)
