@@ -2,7 +2,7 @@
 #suppose length of n is a lot and you want to have all possble combinations:
 # ['adg', 'adh', 'adi', 'aeg',......
 # you cannot have lots of for loops inside each other especially if len(a) will change each time.
-# so there are two ways to solve that as shwon here.
+# so there are two ways to solve that iteratively and one way to solve it recursively  as shown here.
 # no reference but look at the video here:
 # https://leetcode.com/problems/letter-combinations-of-a-phone-number/solution/
 
@@ -24,5 +24,17 @@ print(res)
 res=[""] # if you put []  the loop will not work
         #(len(res))=1 which is ewual with length of ["A"]
 for i in range(len(a)):
-    res=[item+char for item in res for char in a[i]]
+    res=[j+k for j in res for k in a[i]]
 print(res)
+
+#method 3 recursive
+def backtrack(sofar,a):
+    if len(a)==0:
+        output.append(sofar)
+    else:
+        for k in range(len(a[0])):
+             backtrack(sofar+a[0][k],a[1:])
+output=[]
+
+backtrack("",a)
+print(output)
