@@ -1,4 +1,4 @@
-"""By Rouzbeh
+
    2020-11-28
    This code is doing binary search using two methods: both iterative and
    recursion based  on algorithm that abdul describes
