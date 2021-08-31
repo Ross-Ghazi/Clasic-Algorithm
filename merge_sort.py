@@ -1,4 +1,4 @@
-"""By Rouzbeh
+
    2020-11-30
     merge sort
     https://www.youtube.com/watch?v=3aTfQvs-_hA&ab_channel=BrianFaure
