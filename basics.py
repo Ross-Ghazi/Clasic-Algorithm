@@ -1,4 +1,3 @@
-"""By Rouzbeh
    2020-11-30
  crate random array for inputs
   """
