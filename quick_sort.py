@@ -1,4 +1,4 @@
-"""By Rouzbeh
+
    2020-11-30
   Quick sort two methods
   https://www.youtube.com/watch?v=RFyLsF9y83c&t=344s&ab_channel=BrianFaure
