@@ -1,4 +1,4 @@
-# By Rouzbeh on Dec 12
+
 #suppose length of n is a lot and you want to have all possble combinations:
 # ['adg', 'adh', 'adi', 'aeg',......
 # you cannot have lots of for loops inside each other especially if len(a) will change each time.
