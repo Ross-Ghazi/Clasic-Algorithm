@@ -1,4 +1,4 @@
-"""By Rouzbeh
+
    2020-11-28
    This code is finding the first elements which is larger than
    https://www.youtube.com/watch?v=uEUXGcc2VXM&t=266s&ab_channel=AbdulBari
